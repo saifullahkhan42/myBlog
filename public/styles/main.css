@@ -1,0 +1,299 @@
+body{
+    background-color: #EEEEEE;
+}
+
+main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+footer{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* background-color: white; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.post > div{
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    /* background: rgb(236, 236, 236); */
+    background: #F3F7EC;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+
+.post > img{
+    float: left;
+}
+.post > div > div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: .5rem;
+}
+
+.blog-container > .post > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* This section belongs to sign in and up section */
+
+.login{
+    /* outline: 2px solid  black; */
+}
+
+
+
+.blog-container > .login{
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    
+    /* background: rgb(236, 236, 236); */
+    background: #F3F7EC;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.login > form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.login > form > span{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+} 
+
+.login > .form-group{
+    width: 40%;
+    margin-left: 4px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    resize: none;
+    color: #fff;
+    height: 96px;
+    border: 1px solid #414141;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.login > .form-group > label{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+/* this section belongs o create post */
+.create-post {
+    /* outline: 2px solid black; */
+    /* display : flex; */
+}
+
+.create-post > form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.create-post > form  > label {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #414141;
+}
+
+.create-post > form > input{
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+.create-post > form > textarea{
+    /* width: 90%; */
+    border-radius: 5px;
+    padding: 5px;
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+
+/* this sectio belongs to signup */
+.signup{
+    background: rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+
+.signup > form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.signup > form > p{
+    background-color: #414141;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    width: 60%;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.signup > h2{
+    text-align: center;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    /* padding: 10px 20px 10px 20px; */
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/* button,
+  button:focus {
+    font-size: 17px;
+    padding: 10px 25px;
+    border-radius: 0.7rem;
+    background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+    border: 2px solid rgb(50, 50, 50);
+    border-bottom: 5px solid rgb(50, 50, 50);
+    box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);
+    transform: translate(0, -3px);
+    cursor: pointer;
+    transition: 0.2s;
+    transition-timing-function: linear;
+} */
+  
+/* button:active {
+    transform: translate(0, 0);
+    border-bottom: 2px solid rgb(50, 50, 50);
+  } */
+
+.input {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+  
+.input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+}
+
+
+
+
+/* This ssection belongs to nav bar */
+.navbar-container{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #006989;
+    color: white;
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    gap: 0.5rem;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.navbar-container > ul > li {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.logo > img {
+    float: left;
+    border-radius: 50%;
+    /* align-self: flex-start; */
+}
+
+.navbar-container > .home{
+    /* align-self: flex-end; */
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    gap:1rem;
+}
+
+/* THIS SECTION BELONGS TO FOOTER */
+footer{
+    display: flex;
+    background-color: #005C78;
+    justify-content: center;
+}
+
+footer > p {
+    margin: 20px;
+    color: white;
+}

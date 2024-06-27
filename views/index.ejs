@@ -1,0 +1,64 @@
+
+<%- include("partial/navbar.ejs") %>
+
+
+<div class="blog-container">
+
+    <div class="post">
+        <div>
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quas adipisci facilis laborum, assumenda quae natus suscipit blanditiis nam officiis voluptate ab! Itaque inventore fugit vero commodi voluptatem eius aliquid!</p>
+            <div>
+                <button class="btn">❌</button>
+                <button class="btn">🖉</button>
+            </div>
+            
+        </div>
+
+    
+        <div>
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quas adipisci facilis laborum, assumenda quae natus suscipit blanditiis nam officiis voluptate ab! Itaque inventore fugit vero commodi voluptatem eius aliquid!</p>
+            <div>
+                <button class="btn">❌</button>
+                <button class="btn">🖉</button>
+            </div>
+        </div>
+    
+
+    
+        <div>
+            <h2>Blog Title</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quas adipisci facilis laborum, assumenda quae natus suscipit blanditiis nam officiis voluptate ab! Itaque inventore fugit vero commodi voluptatem eius aliquid!</p>
+            <div>
+                <button class="btn">❌</button>
+                <button class="btn">🖉</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="login">
+        <form action="/login" method="POST">
+            <input class="input" name = "lname" type="text" placeholder="User Name">
+            <input class="input" name = "Password" type="text" name="" id="" placeholder="Password">
+            <button class = "btn" type="submit">Login</button>
+            <!-- <span>
+            
+            <button class="btn"><a href="/signup">Sign up!</a></button>
+            </span> -->
+        </form>
+        <p><a href="/signup">Sign up!</a></p>
+
+        <div class="create-post">
+            <form action="/create-post" method="POST">
+                <label>Create Post</label>
+                <input type="text" name="title" placeholder="Enter Title">
+                <textarea name="textarea" id="textarea" rows="8" cols="50" required="">          </textarea>
+                <button class="btn" type="submit">Post</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
+
+<%- include("partial/footer.ejs") %>    
